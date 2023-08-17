@@ -30,5 +30,13 @@ public class ExampleArrays {
             System.out.println("Array personss index 0: " + element);
         }
 
+        //Array using notation simplified
+        String names[] = {"Sara","Laura","Carlos","Carmen"};
+        //print the elements on the array
+        for (String element: names) {
+            int i = 0;
+            System.out.println("Array String index"+ i + ": " + element);
+            i++;
+        }
     }
 }
